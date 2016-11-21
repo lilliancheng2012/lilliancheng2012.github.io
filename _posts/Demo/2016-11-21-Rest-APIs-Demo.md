@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rest APIs swagger-ui
+title: Rest APIs Demo
 category: Demo
 tags: Demo
 keywords: Rest API,swagger-ui

@@ -5,8 +5,10 @@ titlename: 首页
 ---
 <!--<br>--> 
 <center><h3>
-<font color="#000080">A</font><font color="#FFA500">Passionate</font><font color="#2E8B57"> Creative</font><font color="#F08080"> and</font><font color="#00CED1"> Devoted</font>
-<!--<font color="red">无</font><font color="#BA55D3">穷, </font><font color="#601986">进</font><font color="#556fb5">一</font><font color="#fa1089">寸</font><font color="#638c0b">有</font><font color="#e00089">一</font><font color="#0a1089">寸</font><font color="#f0c089">的</font><font color="#00c380">欢</font><font color="#cc1089">喜</font>-->
+<font color="#000080">A </font><font color="#FFA500">Passionate </font><font color="#2E8B57">Creative </font><font color="#F08080">and </font><font color="#00CED1">Devoted</font>
+<br/>
+<font color="red">Test </font><font color="#BA55D3">Analyst </font><font color="#601986">@ </font><font color="#556fb5">New </font><font color="#fa1089">Zealand</font>
+<!--<font color="#638c0b">有</font><font color="#e00089">一</font><font color="#0a1089">寸</font><font color="#f0c089">的</font><font color="#00c380">欢</font><font color="#cc1089">喜</font>-->
 </h3></center>
 <div class="row">
   <div class="col-md-12">
@@ -15,7 +17,7 @@ titlename: 首页
       {% for post in paginator.posts %}
         <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
           {{post.title}}
-          <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+          <span class="badge">{{ post.date | date:"%Y-%m-%d" }}</span>
         </a>
       {% endfor %}
     </div>

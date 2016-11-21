@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AutomationTest Rest APIs
+title: AutomationTest Rest APIs Demo
 category: Demo
 tags: 
 keywords: 

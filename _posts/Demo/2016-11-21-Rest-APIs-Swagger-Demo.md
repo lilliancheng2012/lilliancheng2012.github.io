@@ -7,24 +7,37 @@ keywords: Rest API,swagger-ui
 description: The Rest APIs for properties
 ---
 
-> “你要学会转移感情。”--真人秀《LAY的一生》
+# Rest-Rent-API 
 
-###材料
+This project provides Backend APIs for properties rental websites , IOS and Android devices.
 
-1. 绿豆100g
-2. 干百合30g
-3. 冰糖若干
+## Getting Started
 
-###步骤
+### Prerequisites
 
-1. 绿豆洗净，放入600ml水中大火烧开，改小火烧到绿豆开花
-2. 此时加入洗净的干百合
-3. 继续小火烧，凭感觉在适当时刻加入冰糖80g
-4. 直到绿豆百合煮烂，关火上汤
+- [Git](https://git-scm.com/) Source Code Management
+- [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) JDK 1.8
+- [Spring Boot](http://projects.spring.io/spring-boot/) Get App up and running as quickly as possible.
+- [Maven 3](https://maven.apache.org/download.cgi) Maven Build Tool
+- [Junit 4](http://junit.org/junit4/) Unit Testing Tool
+- [Mysql](https://www.mysql.com/) - Databse
+- [Swagger](http://swagger.io/swagger-ui/) - Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation and sandbox from a Swagger-compliant API.
 
-###完成
+### Run Test Cases
 
-味道，清香甘甜，沙感细腻，非同寻常的好。!!!
+1. Run `mvn clean install` to install dependencies.
 
-![1](/public/img/food/mung.jpg)
+2. Run `mvn clean test` to run Junit test cases.
+
+### Testing Coverage Report
+
+Run `mvn jacoco:report` to generate the code coverage report after executing the unit test cases.
+![](https://raw.githubusercontent.com/lilliancheng2012/lilliancheng2012.github.io/master/public/img/posts/18-09-16/Jacoco.png)
+
+### Run Rent Api Application
+Run `mvn spring-boot:run` to start Rest Rent APi service. After server starting, type `http://localhost:8080/api/swagger-ui.html` to check the APIs in the Swagger Pages.
+![](https://raw.githubusercontent.com/lilliancheng2012/lilliancheng2012.github.io/master/public/img/posts/18-09-16/Swagger.PNG)
+
+
+
 
